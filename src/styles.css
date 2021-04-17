@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  margin: 0
+}
+
+h1,h2,h3 {
+  margin: 0
+}
+
+body{
+    font-weight: 200;
+    font-family: Helvetica, Arial, sans-serif; 
+    margin: 20px;
+    background: white;
+    color: #3e4144;
+    -webkit-font-smoothing: antialiased;
+}
+
+.flow-content > * + * {
+  margin-top: 1em;
+}
+
+dd {
+  font-weight: bold;
+}
+
+button {
+  background-color: black;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: #3e4144;
+}
+
+button:focus{ 
+  outline: none;
+}
+
+.p-1 {
+  padding: 1px;
+}
