@@ -52,3 +52,25 @@ button:focus{
 .p-1 {
   padding: 1px;
 }
+
+.pY-1{
+  padding: 1em 0;
+}
+
+.row{
+  display: flex;
+  gap: 1em;
+}
+
+.a-center{
+  justify-content: center;
+}
+
+.col{
+  flex-grow: 1;
+}
+
+input{
+  display: block;
+  margin: 5px;
+}
